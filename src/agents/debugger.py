@@ -1,3 +1,12 @@
+"""
+Debugger agent — specialist for bug analysis, error diagnosis, and code fixes.
+
+Receives handoffs from TriageAgent when the user reports a bug, error, or
+unexpected behaviour. Combines mechanical linting (run_linter) with API
+verification (lookup_docs, web_search) before producing a structured fix.
+
+Response format: Root Cause / Fix / Explanation.
+"""
 from agents import Agent
 from src.tools import run_linter, lookup_docs, web_search
 

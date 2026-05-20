@@ -1,3 +1,10 @@
+"""
+Web search tool registered with the OpenAI Agents SDK via @function_tool.
+
+This is an intentional stub that returns a fixed placeholder so the project
+runs without external API credentials.  Replace the function body with a real
+search client (e.g. Tavily, SerpAPI, or Brave Search) to enable live results.
+"""
 from agents import function_tool
 
 

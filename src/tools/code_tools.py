@@ -1,8 +1,18 @@
+"""
+Code-related tools registered with the OpenAI Agents SDK via @function_tool.
+
+These are intentional stubs for demonstration purposes.  In production:
+  - run_linter  → subprocess call to flake8, eslint, or similar
+  - lookup_docs → pydoc, a documentation API, or a vector-search index
+  - save_response → object storage (S3, GCS) or a database record
+"""
 from pathlib import Path
 from agents import function_tool
 
 _OUTPUT_DIR = Path("outputs")
 
+# Minimal inline reference for common Python built-ins and language features.
+# A production implementation would call pydoc or a live documentation API.
 _DOCS = {
     "list": "list — ordered, mutable sequence. Methods: append, extend, insert, remove, pop, sort.",
     "dict": "dict — key-value mapping. Methods: get, keys, values, items, update, pop.",
