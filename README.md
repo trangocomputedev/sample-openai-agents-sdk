@@ -1,5 +1,7 @@
 # Sample OpenAI Agents SDK
 
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
+
 A multi-agent coding assistant built with the [OpenAI Agents SDK](https://github.com/openai/openai-agents-python). A triage agent routes questions to specialist agents, protected by an input guardrail that blocks non-programming queries. Demonstrates handoffs, `@function_tool`, guardrails, tracing, and all three `Runner` modes.
 
 ## Architecture
@@ -109,3 +111,7 @@ src/
 tests/
 main.py                # Three Runner modes: async, sync, streamed
 ```
+
+---
+
+Built by [Trango Compute](https://trango-compute.com)
